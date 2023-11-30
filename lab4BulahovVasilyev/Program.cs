@@ -10,11 +10,11 @@ namespace lab4BulahovVasilyev
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Какая операция вам нужна, введите цифру?" + Environment.NewLine + "1. Сложение " + Environment.NewLine + "2. Вычитание " + Environment.NewLine + "3. Умножение " + Environment.NewLine + "4. Деление ");
+            Console.WriteLine("Введите цифру действия..." + Environment.NewLine + "1) Сложение " + Environment.NewLine + "2) Вычитание " + Environment.NewLine + "3) Умножение " + Environment.NewLine + "4) Деление ");
             string k = Console.ReadLine();
-            Console.WriteLine("Введите первое число:");
+            Console.WriteLine("Введите 1-ое число:");
             int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите второе число:");
+            Console.WriteLine("Введите 2-ое число:");
             int b = Convert.ToInt32(Console.ReadLine());
         }
     }
