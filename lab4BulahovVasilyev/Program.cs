@@ -17,5 +17,10 @@ namespace lab4BulahovVasilyev
             Console.WriteLine("Введите 2-ое число:");
             int b = Convert.ToInt32(Console.ReadLine());
         }
+        static void umnog(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a * b);
+        }
     }
 }
