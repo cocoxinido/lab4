@@ -45,5 +45,25 @@ namespace lab4BulahovVasilyev
 
         }
 
+        static void plus(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a + b);
+        }
+        static void minus(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a - b);
+        }
+        static void umnog(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a * b);
+        }
+        static void del(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a / b);
+        }
     }
 }
