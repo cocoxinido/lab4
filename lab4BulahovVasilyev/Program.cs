@@ -16,6 +16,34 @@ namespace lab4BulahovVasilyev
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите 2-ое число:");
             int b = Convert.ToInt32(Console.ReadLine());
+
+            switch (k)
+            {
+                case "1":
+                    plus(a, b);
+                    break;
+                case "2":
+                    minus(a, b);
+                    break;
+                case "3":
+                    umnog(a, b);
+                    break;
+                case "4":
+                    if (b != 0)
+                    {
+                        del(a, b);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Результат операции: деление на ноль невозможно.");
+                    }
+                    break;
+                default:
+                    Console.WriteLine(" Результат операции: некорректный выбор операции.");
+                    break;
+            }
+
         }
+
     }
 }
