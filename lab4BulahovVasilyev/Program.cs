@@ -22,5 +22,10 @@ namespace lab4BulahovVasilyev
             Console.WriteLine("Результат операции:");
             Console.WriteLine(a + b);
         }
+        static void minus(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a - b);
+        }
     }
 }
