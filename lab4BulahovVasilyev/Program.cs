@@ -32,5 +32,10 @@ namespace lab4BulahovVasilyev
             Console.WriteLine("Результат операции:");
             Console.WriteLine(a * b);
         }
+        static void del(int a, int b)
+        {
+            Console.WriteLine("Результат операции:");
+            Console.WriteLine(a / b);
+        }
     }
 }
